@@ -1,0 +1,2 @@
+import os
+os.system('"echo Dominio: %userdomain% ◙Nome da maquina: %computername%◙Controlador de dominio: %logonserver% > C:/Users/admin/Documents/sysinfo/PC_INFO_%computername%_%date:~-10,2%-%date:~-7,2%-%date:~-4,4%.txt & route print > C:/Users/admin/Documents/sysinfo/ROUTE_INFO_%username%_%date:~-10,2%-%date:~-7,2%-%date:~-4,4%.txt"')
